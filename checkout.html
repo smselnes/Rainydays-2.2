@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/982175d43a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="See through your order before submitting purchase."
+    />
+    <title>Rainydays | Checkout Page</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dsy4yxt.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Hotjar Tracking Code for https://smselnes-rainydays.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2605524, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="/images/rainydays_logo.png"
+          alt="Brand logo. Illustration of a mountain."
+        />
+      </a>
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="jackets.html">Jackets</a>
+          </li>
+          <li>
+            <a href="inspiration.html">Inspiration</a>
+          </li>
+          <li class="cart-counter">
+            <a class="active" href="checkout.html">
+              <i class="fas fa-shopping-basket"></i>
+              <span class="cart">0</span>
+            </a>
+          </li>
+          <li class="search"><i class="fas fa-search"></i></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="jackets.html">Jackets</a></li>
+        <li>Checkout</li>
+      </ul>
+      <section class="checkout-main">
+        <section class="checkout-summary">
+          <h1>Summary</h1>
+          <div>
+            <input
+              type="text"
+              name="productline1"
+              id="productline1"
+              placeholder="Skiing Jacket"
+            />
+            <input type="text" id="nok" placeholder="1500 NOK" />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="productline2"
+              id="productline2"
+              placeholder="Hiking Jacket"
+            />
+            <input type="text" id="nok" placeholder="1150 NOK" />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="productline3"
+              id="productline3"
+              placeholder="Allround Jacket"
+            />
+            <input type="text" id="nok" placeholder="1500 NOK" />
+          </div>
+          <div>
+            <input type="text" name="total" id="total" placeholder="Total" />
+            <input type="text" id="nok" placeholder="4150 NOK" />
+          </div>
+        </section>
+        <section class="checkout-payment">
+          <h3>Payment</h3>
+          <div>
+            <label for="cardholder">Cardholders Name</label>
+            <input type="number" id="cardholder" />
+          </div>
+          <div>
+            <label for="cardnumber">Card Number</label>
+            <input
+              type="number"
+              id="cardnumber"
+              placeholder="---- ---- ---- ----"
+            />
+          </div>
+          <div class="expiry">
+            <label for="expirydate">Expiry date</label>
+            <input type="number" id="expirydate" placeholder="-- / --" />
+            <label for="cvv">CVC</label>
+            <input type="number" id="cvc" placeholder="---" />
+          </div>
+          <a class="purchase" href="success.html">Order Now</a>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="about.html">About us</a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/js/cart.js"></script>
+    <script src="/js/order.js"></script>
+  </body>
+</html>

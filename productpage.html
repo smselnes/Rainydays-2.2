@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/982175d43a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Check out our blue jacket, most used for canoeing adventures."
+    />
+    <title>Rainydays | Product specific page</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dsy4yxt.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Hotjar Tracking Code for https://smselnes-rainydays.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2605524, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="/images/rainydays_logo.png"
+          alt="Brand logo. Illustration of a mountain."
+        />
+      </a>
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="active" href="jackets.html">Jackets</a>
+          </li>
+          <li>
+            <a href="inspiration.html">Inspiration</a>
+          </li>
+          <li class="cart-counter">
+            <a href="checkout.html">
+              <i class="fas fa-shopping-basket"></i>
+              <span class="cart">0</span>
+            </a>
+          </li>
+          <li class="search">
+            <i class="fas fa-search"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="jackets.html">Jackets</a></li>
+        <li class="crumb"></li>
+      </ul>
+      <div class="loader"></div>
+      <section class="jackets-content">
+        <div class="jackets-content-main"></div>
+        <div class="product-info">
+          <p class="product-text"></p>
+          <div class="size-buttons">
+            <input type="radio" name="size" id="small" />
+            <label for="small">S</label>
+            <input type="radio" name="size" id="medium" />
+            <label for="medium">M</label>
+            <input type="radio" name="size" id="large" />
+            <label for="large">L</label>
+            <input type="radio" name="size" id="xlarge" />
+            <label for="xlarge">XL</label>
+          </div>
+          <div class="jackets-buttons">
+            <button class="purchase-button">Buy product</button>
+            <a href="jackets.html">Jackets page</a>
+          </div>
+          <span class="added">&#9745; Product added to cart.</span>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="about.html">About us</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/js/productspecific.js"></script>
+    <script src="/js/cart.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
+
+<!-- Original page html -->
+<!-- <main>
+  <ul class="breadcrumbs">
+    <li><a href="index.html">Homepage</a></li>
+    <li><a href="jackets.html">Jackets</a></li>
+    <li>Hiking</li>
+  </ul>
+  <section class="jackets-content">
+    <section class="jackets-content-green">
+      <div>
+        <img
+          src="/images/jacket-green.jpeg"
+          alt="An image of our green jacket"
+        />
+      </div>
+      <div class="product-info">
+        <h1>Product Information</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Assumenda laboriosam unde laborum. Impedit sequi voluptatibus
+          ducimus dolore odit. Ipsum, eveniet!
+        </p>
+        <div class="size-buttons">
+          <input type="radio" name="size" id="small" />
+          <label for="small">S</label>
+          <input type="radio" name="size" id="medium" />
+          <label for="medium">M</label>
+          <input type="radio" name="size" id="large" />
+          <label for="large">L</label>
+          <input type="radio" name="size" id="xlarge" />
+          <label for="xlarge">XL</label>
+        </div>
+        <div class="jackets-buttons">
+          <button class="purchase-button">Buy product</button>
+          <a href="jackets.html">Jackets page</a>
+        </div>
+        <span class="added">&#9745; Product added to cart.</span>
+      </div>
+    </section>
+  </section>
+</main> -->

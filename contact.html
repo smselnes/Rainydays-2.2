@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/982175d43a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact us about our quality outdoor jackets."
+    />
+    <title>Rainydays | Contact</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/dsy4yxt.css" />
+    <!-- Hotjar Tracking Code for https://smselnes-rainydays.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2605524, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="/images/rainydays_logo.png"
+          alt="Brand logo. Illustration of a mountain."
+        />
+      </a>
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="jackets.html">Jackets</a>
+          </li>
+          <li>
+            <a href="inspiration.html">Inspiration</a>
+          </li>
+          <li class="cart-counter">
+            <a href="checkout.html">
+              <i class="fas fa-shopping-basket"></i>
+              <span class="cart">0</span>
+            </a>
+          </li>
+          <li class="search"><i class="fas fa-search"></i></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Homepage</a></li>
+        <li>Contact</li>
+      </ul>
+      <section class="contact-main">
+        <h1>Questions? Send us a message.</h1>
+        <form class="contact-form" method="GET">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your full name"
+          />
+          <span id="nameError">&#9746; minimum 8 characters</span>
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email address"
+          />
+          <span id="mailError">&#9746; not a valid email format</span>
+          <label for="telephone">Mobile Number</label>
+          <input
+            type="number"
+            name="telephone"
+            id="telephone"
+            placeholder="Your mobile number"
+          />
+          <span class="mobileError">&#9746; minimum 8 numbers</span>
+          <textarea
+            class="textarea"
+            name="enquiry"
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" name="submit" id="submit" />
+          <p class="formresult"></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a class="active" href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="about.html">About us</a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/js/cart.js"></script>
+    <script src="/js/form.js"></script>
+  </body>
+</html>
