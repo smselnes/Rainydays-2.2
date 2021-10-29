@@ -1,9 +1,9 @@
-const baseUrl = "https://smselnes.one/wp-json/wc/store/products/";
+const baseUrl = "https://smselnes.one/wp-json/wc/store/products";
 const jacketContainer = document.querySelector(".jackets-main");
 const loader = document.querySelector(".loader");
 
 async function getProducts(url) {
-   try {
+    try { 
       const response = await fetch(url);
       const products = await response.json();
 
@@ -24,10 +24,12 @@ async function getProducts(url) {
                <h2>NOK:${newPrice}</h2> 
             </a>
          </div>`
+
+         
    })
 
-   } catch(error) {
+    } catch(error) {
 console.log(error);
-}
+} 
 }
 getProducts(baseUrl);
