@@ -25,8 +25,7 @@ async function getProducts(url) {
             </a>
          </div>`
 
-         
-   })
+   });
 
     } catch(error) {
 console.log(error);

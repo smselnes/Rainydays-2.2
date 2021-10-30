@@ -48,4 +48,4 @@ function createProducts(json){
 
 
 //remove console.logs
-//error handling
+
