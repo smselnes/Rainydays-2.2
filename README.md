@@ -1,4 +1,4 @@
-# Rainydays-2.0
+# Rainydays-2.2
 
 04.10.21:
 Improved version of the original RainyDays project, now with JavaScript!
@@ -50,3 +50,11 @@ Made a loader for API calls.
 28.10.21:
 Implementing error handling in JavaScript.
 Removing comments and console.logs not needed.
+
+08.12.21:
+Hamburger-menu fixes:
+Fixing max width on mobile screens.
+Changing font sizes to be more visible, and less missclicks.
+Removing fixed position
+Contact form fixes:
+Removing html symbol in error output. Experienced non-relevant look on some devices/platforms.

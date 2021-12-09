@@ -34,7 +34,7 @@ function validateForm() {
         textarea.style.color = "var(--gray)";
         textarea.style.padding = "1%";
     } else {
-        textarea.innerHTML = "&#9746; Please check inputs";
+        textarea.innerHTML = "Please check inputs";
         textarea.style.background = "var(--pink)";
     }
    

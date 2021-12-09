@@ -2,20 +2,20 @@ const baseUrl = "https://smselnes.one/wp-json/wc/store/products";
 const jacketContainer = document.querySelector(".jackets-main");
 const loader = document.querySelector(".loader");
 
-async function getProducts(url) {
+async function getProducts() {
     try { 
-      const response = await fetch(url);
+      const response = await fetch(baseUrl);
       const products = await response.json();
-
+      console.log(products);
       loader.style.display = "none";
 
       products.forEach(function(product) {
-
+        
       let price = product.prices.price;
       let str = price.toString();
       let result = str.substring(0,4);
       let newPrice = parseInt(result);
-      console.log(product);
+
         jacketContainer.innerHTML += 
         `<div>
             <a href="productpage.html?id=${product.id}">
@@ -27,8 +27,8 @@ async function getProducts(url) {
 
    });
 
-    } catch(error) {
+     } catch(error) {
 console.log(error);
-} 
-}
-getProducts(baseUrl);
+}  
+ } 
+getProducts();

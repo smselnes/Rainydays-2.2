@@ -11,8 +11,6 @@ const infoContainer = document.querySelector(".product-text");
 const breadcrumbs = document.querySelector(".crumb");
 const loader = document.querySelector(".loader");
 
-
-
 async function productData() {
     try { 
         const response = await fetch (productUrl);
@@ -20,7 +18,6 @@ async function productData() {
     
         loader.style.display = "none"; 
         productContainer.innerHTML = "";
-    
         createProducts(json);
 
     }
@@ -45,7 +42,4 @@ function createProducts(json){
     breadcrumbs.innerHTML = `${json.name}`;
 }
 
-
-
-//remove console.logs
 

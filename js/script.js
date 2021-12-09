@@ -1,5 +1,5 @@
 const buy = document.querySelector(".purchase-button");
-const addToCart = document.querySelector(".added");
+const addToCart = document.querySelector(".added-to-cart");
 const cart = document.querySelector(".cart");
 const counter = document.querySelector(".cart-counter");
 let count = 0; 
