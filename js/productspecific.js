@@ -41,5 +41,3 @@ function createProducts(json){
     document.title = "Rainydays | " + newTitle;
     breadcrumbs.innerHTML = `${json.name}`;
 }
-
-

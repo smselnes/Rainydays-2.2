@@ -5,7 +5,7 @@ const mobile = document.querySelector("#telephone");
 const field = document.querySelector("#message");
 const nameError = document.querySelector("#nameError");
 const mailError = document.querySelector("#mailError");
-const mobileError = document.querySelector(".mobileError");
+const mobileError = document.querySelector("#mobileError");
 const textarea = document.querySelector(".formresult");
 
 function validateForm() {
